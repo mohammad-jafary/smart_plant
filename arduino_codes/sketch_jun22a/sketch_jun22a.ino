@@ -36,6 +36,6 @@ void loop() {
     moisture_value = 0;
   }
   // Send values to raspberry pi via serial
-  Serial.println(String(moisture_value) + "," + String(temperature_value) + "," + String(ldr_value));
-  delay(60000);
+  Serial.println(String(moisture_value) + "," + String(temperature_value) + ",h" + String(ldr_value));
+  delay(10000);
 }

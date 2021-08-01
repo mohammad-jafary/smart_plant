@@ -32,6 +32,11 @@ try:
             counter = counter + 1
             print("New data added to file.{}".format(counter))
             data_append.close()
+            real_data = line.split(",")
+            #if int(real_data[0]) < 40:
+                #io.output(relay_output_water, False)
+                
+                #sleep(5)
 except KeyboardInterrupt:
     io.cleanup()
     data_append.close()

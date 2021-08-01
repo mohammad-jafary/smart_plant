@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" />
+
+    <title>Smart Plant</title>
+  </head>
+  <body>
+    <div class="radshodamBox">
+      <ul>
+        <h3>Current Status</h3>
+        <li>Moisture: {{ moist }} %</li>
+        <li>Temperature: {{ temp }} °C</li>
+        <li>Light: {{ light }}</li>
+      </ul>
+      <ul>
+        <h3>Manual Control</h3>
+    
+        <div class="line">
+          <li><x>{{ water_status }}</x> Water Pump :</li>
+          <span class="radshodamLink">
+            <a href="/water/on">On</a>
+            <a href="/water/off">Off</a>
+          </span>
+        </div>
+        <div class="line">
+          <li><x>{{ light_status }}</x> Lamp :</li>
+          <span class="radshodamLink">
+            <a href="/light/on">On</a>
+            <a href="/light/off">Off</a>
+          </span>
+        </div>
+      </ul>
+    </div>
+  </body>
+</html>

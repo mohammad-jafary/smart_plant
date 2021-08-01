@@ -1,0 +1,58 @@
+.radshodamBox {
+  font-family: sans-serif;
+  width: 600px;
+  background-color: aquamarine;
+  padding: 25px;
+  box-shadow: 10px 5px 5px #00000038;
+}
+.radshodamBox ul {
+  list-style: none;
+}
+.radshodamBox li {
+  padding: 10px;
+}
+x {
+  color: red;
+  font-weight: bold;
+}
+.radshodamform {
+  text-align: center;
+  font-family: sans-serif;
+  width: 600px;
+  background-color: aquamarine;
+  padding: 25px;
+  box-shadow: 10px 5px 5px #00000038;
+}
+.radshodamform input {
+  background: #00000033;
+  border: none;
+  padding: 3px;
+  margin: 7px;
+}
+.radshodamLink {
+  display: flex;
+  justify-content: start;
+}
+.radshodamLink a {
+  margin: 7px 2px;
+  text-decoration: none;
+  padding: 2px;
+  background-color: #5d5c5b;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  /* width: 137px; */
+  display: block;
+  width: 29px;
+  text-align: center;
+}
+.radshodamLink a:hover {
+  background-color: goldenrod;
+}
+.radshodamLink a:active {
+  background-color: #da2020;
+}
+.line {
+  display: flex;
+  justify-content: start;
+}
